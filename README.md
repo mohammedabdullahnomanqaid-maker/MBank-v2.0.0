@@ -1,36 +1,43 @@
-<div align="center">🏦 MBank — v2.0.0
+<div align="center">
 
-A Beginner C++ Console Project
+# 🏦 MBank — v2.0.0
+
+### A Beginner C++ Console Project
 
 A simple banking project developed during the early stage of my programming journey.
 
-<br>"📖 About" (#-about) · "🎯 Purpose" (#-purpose) · "🖥️ Output" (#️-output) · "🛠️ Technologies" (#️-technologies) · "📂 Structure" (#-structure) · "🚀 Run" (#-run)
+<br>
 
-</div>---
+[📖 About](#-about) · [🎯 Purpose](#-purpose) · [🖥️ Output](#️-output) · [🛠️ Technologies](#️-technologies) · [📂 Structure](#-structure) · [🚀 Run](#-run)
 
-📖 About
-
-MBank v2.0.0 is a C++ Console Application developed using C++ and Visual Studio.
-
-This version continues the MBank project with a more structured project based on C++ classes and separate screens for the available operations.
-
-The project includes client management, transactions, user management, login/register, and currency exchange functionality found in the source code.
+</div>
 
 ---
 
-📅 Project Timeline
+## 📖 About
 
-Version| Started| Completed
-v2.0.0| 2026/02/05| 2026/02/20
-"v1.2.0" (https://github.com/mohammedabdullahnomanqaid-maker/MBank-v1.2.0)| 2026/01/05| 2026/01/10
-"v1.1.0" (https://github.com/mohammedabdullahnomanqaid-maker/MBank-v1.1.0)| 2025/12/05| 2025/12/10
-"v1.0.0" (https://github.com/mohammedabdullahnomanqaid-maker/MBank-v1.0.0)| 2025/12/01| 2025/12/04
+**MBank v2.0.0** is a C++ Console Application developed using **C++** and **Visual Studio**.
+
+This version continues the MBank project with a more structured approach using **Object-Oriented Programming**.
+
+The project includes client management, transactions, user management, login/register, and currency exchange.
 
 ---
 
-🎯 Purpose
+## 📅 Project Timeline
 
-The project was created to continue practicing C++ programming and move toward a more structured console application.
+| Version | Started | Completed |
+|:---:|:---:|:---:|
+| **v2.0.0** | **2026/02/05** | **2026/02/20** |
+| [v1.2.0](https://github.com/mohammedabdullahnomanqaid-maker/MBank-v1.2.0) | 2026/01/05 | 2026/01/10 |
+| [v1.1.0](https://github.com/mohammedabdullahnomanqaid-maker/MBank-v1.1.0) | 2025/12/05 | 2025/12/10 |
+| [v1.0.0](https://github.com/mohammedabdullahnomanqaid-maker/MBank-v1.0.0) | 2025/12/01 | 2025/12/04 |
+
+---
+
+## 🎯 Purpose
+
+The project was created to continue practicing C++ programming through a small banking-themed console application.
 
 This version focuses on:
 
@@ -39,36 +46,34 @@ This version focuses on:
 - User management
 - Login and register
 - Currency exchange
-
-These areas are represented by the corresponding classes and screens in the project.
+- Object-Oriented Programming
 
 ---
 
-🖥️ Output
+## 🖥️ Output
 
-🏦 Main Menu
+### 🏦 Main Menu
 
-The main menu in the current source provides options for clients, transactions, users, login/register, currency exchange, and logout.
-
+```text
 ==========================================
-              Main Menue
+          Main Menue Screen
 ==========================================
 [1] Show Client List.
 [2] Add New Client.
 [3] Delete Client.
-[4] Update Client.
+[4] Update Client Info.
 [5] Find Client.
-[6] Transactions.
-[7] Mange Users.
+[6] Transiction.
+[7] Manage User.
 [8] Login Registre.
 [9] Currency Exchange.
 [10] Logout.
 ==========================================
+```
 
-💳 Transactions
+### 💳 Transactions Menu
 
-The project contains a dedicated transactions screen.
-
+```text
 ===========================================
              Transactions
 ===========================================
@@ -79,11 +84,26 @@ The project contains a dedicated transactions screen.
 [5] Transfer Log.
 [6] Main Menue.
 ===========================================
+```
 
-💱 Currency Exchange
+### 👤 Manage User Menu
 
-The currency section contains a separate menu for currency-related operations.
+```text
+===============================================
+        Manage User Menue Screen
+===============================================
+[1] List User.
+[2] Add New User.
+[3] Delete User.
+[4] Update User.
+[5] Find User.
+[6] Main Menue.
+===============================================
+```
 
+### 💱 Currency Exchange Menu
+
+```text
 ==================================================
              Currency Exchange Menue
 ==================================================
@@ -93,41 +113,41 @@ The currency section contains a separate menu for currency-related operations.
 [4] Currency Calculator.
 [5] Main Menue.
 ==================================================
+```
 
-«💡 These interfaces are represented as console-style drawings instead of screenshots.»
-
----
-
-🛠️ Technologies
-
-- C++
-- Object-Oriented Programming
-- Visual Studio
-- Console Application
-
-The repository contains multiple C++ classes such as "clsBankClient", "clsUser", "clsPerson", "clsDate", and separate screen classes.
+> 💡 These interfaces are represented as console-style drawings instead of screenshots.
 
 ---
 
-📂 Structure
+## 🛠️ Technologies
 
+- **C++**
+- **Object-Oriented Programming**
+- **Visual Studio**
+- **Console Application**
+
+---
+
+## 📂 Structure
+
+```text
 MBank-v2.0.0/
 │
-├── .vs/
+├── .gitignore
 │
 ├── Project/
-│   ├── 11_OOP.vcxproj
-│   ├── 11_OOP.vcxproj.filters
-│   ├── Global.h
+│   │
 │   ├── MainScreen.cpp
+│   ├── Global.h
+│   │
 │   ├── Currencies.txt
 │   ├── UserData.txt
 │   ├── FileRegisters.txt
 │   │
-│   ├── clsBankClient.h
-│   ├── clsUser.h
 │   ├── clsPerson.h
 │   ├── clsDate.h
+│   ├── clsBankClient.h
+│   ├── clsUser.h
 │   │
 │   ├── clsMainScreen.h
 │   ├── clsTransactionsScreen.h
@@ -139,47 +159,50 @@ MBank-v2.0.0/
 │
 ├── x64/
 │
-├── .gitignore
 └── Project.sln
-
-The structure above follows the files currently present in the repository.
+```
 
 ---
 
-🚀 Run
+## 🚀 Run
 
-Requirements
+### Requirements
 
 - Windows
 - Visual Studio
 - C++ development tools
 
-Steps
+### Steps
 
-1. Open "Project.sln"
-2. Build the project
-3. Run the application
-
----
-
-🎓 Learning
-
-This version represents an important step in my early programming journey.
-
-It helped me continue practicing C++ and Object-Oriented Programming while building a more structured console project.
-
-C++ · OOP · Classes · Functions · File Handling · Console Menus
+1. Open `Project.sln`
+2. Select the desired configuration
+3. Build the project
+4. Run the application
 
 ---
 
-👨‍💻 Author
+## 🎓 Learning
 
-<div align="center">Mohammed Abdullah Noman Qaid Mohammed
+This version represents another important step in my early programming journey.
+
+It helped me continue practicing:
+
+**C++ · OOP · Classes · Functions · File Handling · Console Menus**
+
+---
+
+## 👨‍💻 Author
+
+<div align="center">
+
+**Mohammed Abdullah Noman Qaid Mohammed**
 
 Computer Science Student — Taiz University
 
-<br>🏦 MBank v2.0.0
+<br>
 
-Another step in my programming journey.
+🏦 **MBank v2.0.0**
+
+*Another small step in my programming journey.*
 
 </div>
