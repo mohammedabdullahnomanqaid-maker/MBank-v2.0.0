@@ -1,32 +1,33 @@
 ﻿  MainScreen.cpp
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsString.h(66,1): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsString.h(179,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsString.h(258,1): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsString.h(324,1): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsString.h(363,1): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsString.h(407,1): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsUtil.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsUser.h(186,2): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegister' now defined to be 'public', previously it was defined to be 'private'
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsUser.h(119): message : see declaration of 'clsUser::stLoginRegister'
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsUser.h(180,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsUser.h(209,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsScreen.h(33,11): warning C4129: 'D': unrecognized character escape sequence
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsBankClient.h(239,2): warning C4240: nonstandard extension used: access to 'clsBankClient::stTransferLogIfo' now defined to be 'public', previously it was defined to be 'private'
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsBankClient.h(106): message : see declaration of 'clsBankClient::stTransferLogIfo'
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsBankClient.h(33,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsBankClient.h(117,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsBankClient.h(118,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsBankClient.h(119,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsBankClient.h(400,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsBankClient.h(412,1): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsTotalBalanceScreen.h(56,84): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsAddNewUserScreen.h(65,11): warning C4129: 'D': unrecognized character escape sequence
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsAddNewUserScreen.h(71,11): warning C4129: 'F': unrecognized character escape sequence
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsAddNewUserScreen.h(78,11): warning C4129: 'T': unrecognized character escape sequence
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsUpdateUserScreen.h(66,11): warning C4129: 'D': unrecognized character escape sequence
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsUpdateUserScreen.h(72,11): warning C4129: 'F': unrecognized character escape sequence
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsUpdateUserScreen.h(79,11): warning C4129: 'T': unrecognized character escape sequence
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsBankClient.h(391): warning C4715: 'clsBankClient::Save': not all control paths return a value
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsUser.h(354): warning C4715: 'clsUser::Save': not all control paths return a value
-C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\Project\clsBankClient.h(151): warning C4715: 'clsBankClient::_LoadTransferLogDataFromFile': not all control paths return a value
-  11_OOP.vcxproj -> C:\Users\pc shamel\source\repos\Bank-Project-V1.1,\x64\Debug\11_OOP.exe
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsString.h(66,1): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsString.h(179,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsString.h(258,1): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsString.h(324,1): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsString.h(363,1): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsString.h(407,1): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsUtil.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsUser.h(186,2): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegister' now defined to be 'public', previously it was defined to be 'private'
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsUser.h(119): message : see declaration of 'clsUser::stLoginRegister'
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsUser.h(180,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsUser.h(209,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsScreen.h(33,11): warning C4129: 'D': unrecognized character escape sequence
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsBankClient.h(239,2): warning C4240: nonstandard extension used: access to 'clsBankClient::stTransferLogIfo' now defined to be 'public', previously it was defined to be 'private'
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsBankClient.h(106): message : see declaration of 'clsBankClient::stTransferLogIfo'
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsBankClient.h(33,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsBankClient.h(117,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsBankClient.h(118,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsBankClient.h(119,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsBankClient.h(400,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsBankClient.h(412,1): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsTotalBalanceScreen.h(56,84): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsAddNewUserScreen.h(65,11): warning C4129: 'D': unrecognized character escape sequence
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsAddNewUserScreen.h(71,11): warning C4129: 'F': unrecognized character escape sequence
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsAddNewUserScreen.h(78,11): warning C4129: 'T': unrecognized character escape sequence
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsUpdateUserScreen.h(66,11): warning C4129: 'D': unrecognized character escape sequence
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsUpdateUserScreen.h(72,11): warning C4129: 'F': unrecognized character escape sequence
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsUpdateUserScreen.h(79,11): warning C4129: 'T': unrecognized character escape sequence
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsBankClient.h(391): warning C4715: 'clsBankClient::Save': not all control paths return a value
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsUser.h(354): warning C4715: 'clsUser::Save': not all control paths return a value
+C:\Users\pc shamel\source\repos\MBank-v2.0.0\Project\clsBankClient.h(151): warning C4715: 'clsBankClient::_LoadTransferLogDataFromFile': not all control paths return a value
+  LINK : C:\Users\pc shamel\source\repos\MBank-v2.0.0\x64\Debug\11_OOP.exe not found or not built by the last incremental link; performing full link
+  11_OOP.vcxproj -> C:\Users\pc shamel\source\repos\MBank-v2.0.0\x64\Debug\11_OOP.exe
